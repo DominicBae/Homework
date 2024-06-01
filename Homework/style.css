@@ -1,0 +1,134 @@
+body {
+  margin: 0px;
+  color: white;
+}
+
+nav {
+  height: 80px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 28px 17px;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.nav-item:hover {
+  color: blue;
+}
+
+.title {
+  color: black;
+  text-align: center;
+}
+
+.q1 {
+  display: flex;
+  justify-content: space-between;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
+.box2 {
+  display: flex;
+}
+.margin1 {
+  margin-right: 5px;
+}
+
+.q2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  color: white;
+}
+.box-center {
+  align-self: center;
+}
+.box-end {
+  align-self: flex-end;
+}
+
+.q3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  color: black;
+}
+.bigbox {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  color: white;
+  position: relative;
+}
+.box-ps1 {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.q4 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  margin-top: 100px;
+}
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+}
+.box-ps2 {
+  position: relative;
+  left: 50px;
+  top: -50px;
+}
+
+.q5 {
+    width: 400px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+  }
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
+.up {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
